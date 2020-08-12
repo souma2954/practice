@@ -1,7 +1,6 @@
 package com.datastructure.linkedlist;
 
 public class LinkedList {
-
     Node rootNode;
     Node lastNode;
 
@@ -13,12 +12,10 @@ public class LinkedList {
             this.value = value;
         }
     }
-
     private void setRoot(int value){
         rootNode=new Node(value);
         lastNode=rootNode;
     }
-
     public void addFirst(int value){
         if(rootNode==null){
             setRoot(value);
@@ -49,8 +46,6 @@ public class LinkedList {
             lastNode=currentNode;
             currentNode.next=null;
         }
-
-
     }
 
     public void deleteFirst(){
@@ -59,6 +54,15 @@ public class LinkedList {
         rootNode=rootNode.next;
         nodeToBeDelete.next=null;
     }
+
+    public int indexOf(int value){return 0;}
+
+    public int size(){return 0;}
+
+    public void reverse(){}
+
+    public boolean contains(){return false;}
+
 
     public static void main(String[] args) {
         LinkedList linkedList=new LinkedList();
