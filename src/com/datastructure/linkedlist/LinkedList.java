@@ -59,7 +59,22 @@ public class LinkedList {
 
     public int size(){return 0;}
 
-    public void reverse(){}
+    public void reverse(){
+        if(rootNode==null)return;
+        Node previousNode= rootNode;
+        Node currentNode=previousNode.next;
+        while(currentNode !=null){
+            Node nextNode=currentNode.next;
+            currentNode.next=previousNode;
+            if(previousNode==rootNode){
+                previousNode.next=null;
+                lastNode=previousNode;
+            }
+            previousNode=currentNode;
+            currentNode=nextNode;
+        }
+        rootNode=previousNode;
+    }
 
     public boolean contains(){return false;}
 
@@ -69,10 +84,12 @@ public class LinkedList {
         linkedList.addFirst(7);
         linkedList.addFirst(8);
         //System.out.println(linkedList);
-        linkedList.deleteFirst();
+        //linkedList.deleteFirst();
         linkedList.addLast(10);
         linkedList.addLast(12);
-        linkedList.deleteLast();
+        //linkedList.deleteLast();
+        System.out.println(linkedList);
+        linkedList.reverse();
         System.out.println(linkedList);
 
     }
