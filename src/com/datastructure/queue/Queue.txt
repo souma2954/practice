@@ -2,6 +2,8 @@ Queue
 
 1.Queue implementation using array.
 
+Implement Circular queue.
+
 2.Reverse an queue.
 
 3.Implement a queue with this methods : enQueue(),deQueue(),peek(),isEmpty() and isFull().
