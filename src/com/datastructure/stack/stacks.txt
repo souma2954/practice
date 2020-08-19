@@ -1,0 +1,10 @@
+Stacks
+
+
+1.Implement a stack using array with the given functionality: push(),pop(),peek(),isEmpty().
+
+2.List out all the time complexities for the relevant oprations like: insertion,deletion and search.
+
+3.Reverse a String(For any reversal stack is ideal to use).
+
+4.Check a balanced expression.

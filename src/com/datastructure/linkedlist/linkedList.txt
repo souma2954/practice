@@ -1,0 +1,12 @@
+LinkedList
+
+1.Implement a linkedlist using array with the following functions.addFirst(),addLast(),indexOf(),contains(),
+removeFirst(),removeLast(),size(),toArrayList()
+
+2.What is the search,insertion and deletion operation complexity of Linkedlist.
+
+4.Compare the complexities between array and LinkedList.
+
+5.Reversing a Linkedist.
+
+6.Find k-th node from end of a linkedList.

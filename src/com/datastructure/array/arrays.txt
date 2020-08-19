@@ -1,0 +1,5 @@
+Arrays
+
+1.Implement an dynamic array using array with the given functions:insert(),removeAt(),indexOf().
+
+2.List down the time complexities of various operation like: lookup(),insertion,deletion and search.
